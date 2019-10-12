@@ -26,7 +26,7 @@ public class PrimoClient {
             // Creo la connessione con il server
             // Invio un numero
 
-            Socket s = new Socket("localhost",7777);
+            Socket s = new Socket("localhost",6666);
             PrintWriter pw = new PrintWriter (s.getOutputStream(),true);
             pw.println("Sono il client");
             s.close();
